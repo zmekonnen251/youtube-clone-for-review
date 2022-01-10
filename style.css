@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235, 228, 228);
+  color: rgb(7, 7, 7);
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 820px 1fr;
+  row-gap: 80px;
+  column-gap: 30px;
+}
+
+header {
+  padding: 40px;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+aside ul li {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.logo-search li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.search button {
+  width: 30px;
+  height: 38px;
+}
+
+.youtube-logo {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  align-self: center;
+  display: block;
+  margin-top: -10px;
+}
+
+.notification-icon {
+  width: 25px;
+  background-color: rgb(160, 65, 65);
+  margin-bottom: 10px;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.search {
+  margin-top: 0;
+  height: 40px;
+}
+
+iframe {
+  width: 750px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.thumbnail {
+  width: 170px;
+}
+
+aside ul li div::first-line {
+  font-weight: bold;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.comment-section {
+  margin-top: 50px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 750px;
+  margin: 50px 0;
+}
+
+.channel-sub {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 520px;
+}
+
+.channel button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.channel-name {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.channel-info {
+  margin-left: 30px;
+  padding: 0 30px;
+}
+
+h4 {
+  margin-left: 80px;
+}
